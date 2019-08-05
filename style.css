@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wapper {
+    display: grid;
+    grid-template-columns: 240px auto;
+    grid-template-rows: 56px 567px;
+}
+
+/*<<<<<<<<<<< header >>>>>>>>>>>>>>*/
+
+#header {
+    grid-column: 1 / span 2;
+    background: #272727;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*<<<<<<<<<<<< menu-icon >>>>>>>>>>>>*/
+
+.menu-icon {
+    color: #ffffff;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.menu-icon ion-icon {
+    cursor: pointer;
+}
+
+/*<<<<<<<<<<<<<<<  logo >>>>>>>>>>>>>>>>*/
+
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    width: 129px;
+    height: 30px;
+}
+
+/*<<<<<<<<<<<< search-box >>>>>>>>>>>>>>>*/
+
+.search-box {
+    width: 800px;
+    height: 30px;
+}
+
+/*<<<<<<<<<< search-input >>>>>>>>>>>>>*/
+
+.search-input {
+    background: #121212;
+    width: 575px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*<<<<<<<<<< input-content >>>>>>>>>>>>>*/
+
+.input-content input{
+    width: 531px;
+    height: 24px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #6a6a6a;
+    outline: none;
+}
+
+/*<<<<<<<<<<<< input-keyboard >>>>>>>>>>*/
+
+.input-keyboard {
+    width: 27px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.input-keyboard i {
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+/*<<<<<<<<<<< search-button >>>>>>>>>>*/
+.search-button {
+    width: 65px;
+    height: 30px;
+    background: #383838;
+    border: none;
+    outline: none;
+}
+
+.search-button ion-icon {
+    font-size: 20px;
+    color: #565656;
+}
+
+#nav {
+    background: #1c1c1c;
+}
+
+#content {
+    background: #121212; 
+}
