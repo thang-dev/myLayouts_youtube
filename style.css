@@ -16,6 +16,7 @@
     background: #272727;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .header {
@@ -74,6 +75,7 @@
     font-size: 16px;
     color: #6a6a6a;
     outline: none;
+    color: #dcdcdc;
 }
 
 /*<<<<<<<<<<<< input-keyboard >>>>>>>>>>*/
@@ -96,12 +98,32 @@
     background: #383838;
     border: none;
     outline: none;
+    cursor: pointer; 
 }
 
 .search-button ion-icon {
     font-size: 20px;
     color: #565656;
 }
+
+/*<<<<<<<<<<<<<  actions-box  >>>>>>>>>*/
+.actions-box {
+    width: 252px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*<<<<<<<<<<  actions >>>>>>>>>>>>*/
+
+.actions-box .actions {
+    width: 40px;
+    height: 40px;
+    background: #999999;
+    border-radius: 50%;
+}
+
 
 #nav {
     background: #1c1c1c;
