@@ -143,6 +143,7 @@
 
 #nav {
     background: #1c1c1c;
+    overflow: auto;
 }
 
 /*<<<<<<<<<<<<    menu - options    >>>>>>>>>>>*/
@@ -156,7 +157,7 @@
     border-bottom: 1px #333333 solid;
 }
 
-#nav .menu .options a, button {
+#nav .menu .options a {
     width: 100%;
     background: none;
     outline: none;
@@ -170,14 +171,14 @@
 
 /*<<<<<<<<< icon >>>>>>>>>>*/
 
-.menu button > ion-icon, a > ion-icon, i {
+.menu a > ion-icon, i {
     color: #909090;
     font-size: 20px;
 }
 
 /*<<<<<<<<<<<<  span  >>>>>>>>>>*/
 
-.menu a>span, button>span {
+.menu a>span {
     font-weight: lighter;
     width: 120px;
     color: #ffffff;
@@ -186,8 +187,41 @@
 
 /*<<<<<<<<<<  a:hover   >>>>>>>>*/
 
-#nav .menu .options a:hover, button:hover {
+#nav .menu .options a:hover {
     background: #333333;
+}
+
+
+/*<<<<<<<<<<   list-channel   >>>>>>>>>>>>>>>*/
+
+#nav .listChannel {
+    height: 370px;
+    padding: 8px 0;
+}
+
+/*<<<<<<<<<<  lable >>>>>>>>>>>>>*/
+
+#nav .listChannel .lable {
+    padding: 8px 24px;
+    height: 17px;
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+/*<<<<<<<<< scroll >>>>>>>>*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-tracck {
+    background: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
 }
 
 
