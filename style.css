@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 #wapper {
@@ -106,6 +109,10 @@
     color: #565656;
 }
 
+.search-button:hover > ion-icon {
+    color: #999;
+}
+
 /*<<<<<<<<<<<<<  actions-box  >>>>>>>>>*/
 .actions-box {
     width: 252px;
@@ -132,10 +139,57 @@
     border-radius: 50%;
 }
 
+/*<<<<<<<<<<<<<<  nav  >>>>>>>>>>>*/
 
 #nav {
     background: #1c1c1c;
 }
+
+/*<<<<<<<<<<<<    menu - options    >>>>>>>>>>>*/
+
+#nav .menu {
+    height: 410px;
+}
+
+#nav .menu .options {
+    padding: 12px 0;
+    border-bottom: 1px #333333 solid;
+}
+
+#nav .menu .options a, button {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*<<<<<<<<< icon >>>>>>>>>>*/
+
+.menu button > ion-icon, a > ion-icon, i {
+    color: #909090;
+    font-size: 20px;
+}
+
+/*<<<<<<<<<<<<  span  >>>>>>>>>>*/
+
+.menu a>span, button>span {
+    font-weight: lighter;
+    width: 120px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/*<<<<<<<<<<  a:hover   >>>>>>>>*/
+
+#nav .menu .options a:hover, button:hover {
+    background: #333333;
+}
+
 
 #content {
     background: #121212; 
