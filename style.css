@@ -225,7 +225,54 @@
     background: #333333;
 }
 
+/*<<<<<<<<<<<<<<<< content >>>>>>>>>>>>>>>>>>>>>*/
 
 #content {
     background: #121212; 
 }
+
+#content .ctrl-content {
+    width: 1090px;
+    display: grid;
+    grid-gap: 10px 0px;
+    justify-content: space-around;
+}
+
+.ctrl-content .lable-content {
+    width: 1020px;
+    height: 20px;
+}
+
+.ctrl-content .lable-content h3 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.ctrl-content .ctrl-video {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 15px 10px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 205px 205px;
+}
+
+.ctrl-video .video {
+    display: grid;
+    align-content: space-between;
+}
+
+.video .video-image {
+    background: #ccc;
+    height: 118px;
+}
+
+.video .video-info {
+    background: #ccc;
+    height: 84px;
+}
+
+
+
+
+
