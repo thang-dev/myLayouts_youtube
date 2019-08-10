@@ -146,68 +146,69 @@
     overflow: auto;
 }
 
-/*<<<<<<<<<<<<    menu - options    >>>>>>>>>>>*/
+/*<<<<<<<   ctrl     >>>>>>*/
 
-#nav .menu {
-    height: 410px;
+#nav .ctrl {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    border-bottom: 1px solid #333;
 }
 
-#nav .menu .options {
-    padding: 12px 0;
-    border-bottom: 1px #333333 solid;
-}
-
-#nav .menu .options a {
-    width: 100%;
-    background: none;
-    outline: none;
-    border: none;
-    height: 40px;
+.ctrl a {
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 40px;
 }
 
-/*<<<<<<<<< icon >>>>>>>>>>*/
-
-.menu a > ion-icon, i {
+.ctrl a ion-icon, i {
     color: #909090;
     font-size: 20px;
 }
 
-/*<<<<<<<<<<<<  span  >>>>>>>>>>*/
-
-.menu a>span {
-    font-weight: lighter;
+.ctrl span {
     width: 120px;
-    color: #ffffff;
+    height: 21px;
     font-size: 15px;
+    color: #ffffe9;
 }
 
-/*<<<<<<<<<<  a:hover   >>>>>>>>*/
+.ctrl .lable {
+    height: 17px;
+    padding: 8px 24px;
+}
 
-#nav .menu .options a:hover {
+.ctrl .lable h3 {
+    color: #aaaa9c;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ctrl .avatas {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background: url('http://placekitten.com/g/30/30');
+}
+
+.ctrl a:hover {
     background: #333333;
 }
 
-
-/*<<<<<<<<<<   list-channel   >>>>>>>>>>>>>>>*/
-
-#nav .listChannel {
-    height: 370px;
-    padding: 8px 0;
+#nav .links .ctrl-link {
+    padding: 16px 20px 0 24px;
+    height: 72px;
 }
 
-/*<<<<<<<<<<  lable >>>>>>>>>>>>>*/
-
-#nav .listChannel .lable {
-    padding: 8px 24px;
-    height: 17px;
-    font-weight: lighter;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #aaaaaa;
+.ctrl-link a {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    margin-right: 8px;
+    text-decoration: none;
 }
 
 /*<<<<<<<<< scroll >>>>>>>>*/
@@ -221,7 +222,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #aaaaaa;
+    background: #333333;
 }
 
 
